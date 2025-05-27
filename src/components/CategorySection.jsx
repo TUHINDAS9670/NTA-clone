@@ -111,14 +111,14 @@ export default function CategorySection() {
         {categories.map(cat => (
           <div
             key={cat.id}
-            className={`flex flex-col m-0.5 items-center cursor-pointer px-5 py-7 rounded-t-3xl transition-all duration-300  w-[270px] h-[140px] ${
+            className={`flex flex-col m-0.5 items-center cursor-pointer px-5 py-7 rounded-t-3xl transition-all duration-300  w-[250px] h-[170px] ${
               selected === cat.id ? 'bg-white text-green-600 shadow-lg' : 'text-white hover:bg-white hover:text-green-500'
     
             }`}
             onClick={() => setSelected(cat.id)}
           >
             <div className="mb-1 border-2 border-green-500 rounded-full p-[15px] text-orange-400 ">{cat.icon}</div>
-            <span className="text-xl font-semibold">{cat.title}</span>
+            <span className="text-md font-semibold">{cat.title}</span>
           </div>
         ))}
       </div>
