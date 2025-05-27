@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body{
+ margin:0px;
+ padding:0px;
+}
+ .swiper-pagination {
+    position: relative;
+    margin-top: 30px;
+
+  }
