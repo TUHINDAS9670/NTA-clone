@@ -66,7 +66,7 @@ const Navbar = () => {
             <img src={ntaLogo} alt="NTA Logo" className=" h-[100px]" />
           </div>
 
-          <div className="flex gap-6 font-semibold text-lg text-blue-900 ">
+          <div className="flex gap-6 font-semibold text-md text-blue-900 ">
             <Link
               to="/Home"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
