@@ -68,49 +68,49 @@ const Navbar = () => {
 
           <div className="flex gap-6 font-semibold text-lg text-blue-900 ">
             <Link
-              to="/country/Home"
+              to="/Home"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               HOME
             </Link>
             <Link
-              to="/country/British"
+              to="/Student"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               STUDENT
             </Link>
             <Link
-              to="/country/Chinese"
+              to="/Institute"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               INSTITUTE
             </Link>
             <Link
-              to="/country/Chinese"
+              to="/Action"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               ACTION AGENDA
             </Link>
             <Link
-              to="/country/Chinese"
+              to="/Rti"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               RTI
             </Link>
             <Link
-              to="/country/Thai"
+              to="/Tender"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               TENDER
             </Link>
             <Link
-              to="/country/Thai"
+              to="/Downloads"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               DOWNLOADS
             </Link>
             <Link
-              to="/country/Thai"
+              to="/Contactus"
               className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all"
             >
               CONTACT US
