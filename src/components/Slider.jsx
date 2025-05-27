@@ -1,9 +1,9 @@
 import React from 'react'
-import lgSlider1 from "../assets/lgSlider1.jpg"
-import lgSlider2 from "../assets/lgSlider2.jpg"
-import lgSlider3 from "../assets/lgSlider3.jpg"
-import lgSlider4 from "../assets/lgSlider4.jpg"
-import lgSlider5 from "../assets/lgSlider5.jpg"
+import lgSlidera from "../assets/lgSlider1.jpg"
+import lgSliderb from "../assets/lgSlider2.jpg"
+import lgSliderc from "../assets/lgSlider3.jpg"
+import lgSliderd from "../assets/lgSlider4.jpg"
+import lgSlidere from "../assets/lgSlider5.jpg"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
@@ -11,8 +11,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const images = [
-lgSlider1,
-lgSlider2,lgSlider3,lgSlider4,lgSlider5
+lgSlidera,
+lgSliderb,lgSliderc,lgSliderd,lgSlidere
 ];
 const Slider = () => {
   return (
