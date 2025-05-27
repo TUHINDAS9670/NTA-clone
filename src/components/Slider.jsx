@@ -1,9 +1,9 @@
 import React from 'react'
-import lgSlidera from "../assets/lgSlider1.jpg"
-import lgSliderb from "../assets/lgSlider2.jpg"
-import lgSliderc from "../assets/lgSlider3.jpg"
-import lgSliderd from "../assets/lgSlider4.jpg"
-import lgSlidere from "../assets/lgSlider5.jpg"
+import lgSlidera from "../assets/lgslider1.jpg"
+import lgSliderb from "../assets/lgslider2.jpg"
+import lgSliderc from "../assets/lgslider3.jpg"
+import lgSliderd from "../assets/lgslider4.jpg"
+import lgSlidere from "../assets/lgslider5.jpg"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
