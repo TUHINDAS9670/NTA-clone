@@ -51,13 +51,12 @@ const Navbar = () => {
 
       <div className="bg-white shadow-md">
         <div className="flex justify-between items-center py-2 px-6">
-          {/* Left logos */}
-          <div className="flex items-center gap-4">
+           <div className="flex items-center gap-4">
             <img src={yrLogo} alt="Logo 1" className="h-[70px] mb-3" />
             <img src={ntaLogo} alt="NTA Logo" className="h-[100px]" />
           </div>
 
-          {/* Hamburger icon for mobile */}
+          {/*   icon for mobile */} 
           <div className="md:hidden">
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               <FaBars size={24} className="text-blue-900" />
@@ -76,13 +75,12 @@ const Navbar = () => {
             <Link to="/Contactus" className="relative px-3 py-2 hover:bg-blue-900 hover:text-white border-t-4 border-transparent hover:border-orange-400 transition-all">CONTACT US</Link>
           </div>
 
-          {/* Right image */}
-          <div>
+           <div>
             <img src={azadi} alt="Amrit Mahotsav" className="h-[100px] w-[130px] mt-[-20px]" />
           </div>
         </div>
 
-        {/* Mobile menu */}
+        {/* Mobile menu */} 
         {isMobileMenuOpen && (
           <div className="md:hidden px-6 pb-4 bg-white shadow-inner transition-all duration-300 text-blue-900 font-semibold">
             <Link to="/Home" className="block py-2 border-b hover:bg-blue-900 hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>HOME</Link>

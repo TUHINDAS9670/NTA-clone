@@ -26,7 +26,6 @@ const Gallery = () => {
         GALLERY <span className="bg-orange-400 text-white px-2 py-1 rounded">@NTA</span>
       </h2>
 
-      {/* Swiper Carousel */}
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={20}

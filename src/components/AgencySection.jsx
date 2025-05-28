@@ -11,37 +11,37 @@ const AgencySection = () => {
       tag: "JEE (MAIN)",
       title: "Engineering",
       subtitle: "Joint Entrance Examination - (Main)",
-      // img: "/images/jee.png",
+    
     },
     {
       tag: "NEET (UG)",
       title: "Medical",
       subtitle: "National Eligibility Cum Entrance Test - (UG)",
-      // img: "/images/neet.png",
+
     },
     {
       tag: "CMAT",
       title: "Management",
       subtitle: "Common Management Admission Test",
-      // img: "/images/cmat.png",
+     
     },
     {
       tag: "GPAT",
       title: "Pharmacy",
       subtitle: "Graduate Pharmacy Aptitude Test",
-      // img: "/images/gpat.png",
+
     },
     {
       tag: "UGC-NET",
       title: "University",
       subtitle: "UGC National Eligibility Test",
-      // img: "/images/ugcnet.png",
+     
     },
     {
       tag: "JNUEE",
       title: "University",
       subtitle: "Jawaharlal Nehru University Entrance Test",
-      // img: "/images/jnuee.png",
+   
     },
   ];
 
@@ -98,13 +98,13 @@ const AgencySection = () => {
           {data.map((card, index) => (
             <SwiperSlide key={index}>
               <div className="relative bg-white border px-6 py-6 hover:shadow-2xl rounded-sm h-[200px] cursor-pointer mx-3 ">
-                {/* Top-left Ribbon */}
+              
                 <div className="relative  -top-7 right-9  bg-blue-950  text-white   font-bold px-4 py-2 text-left text-xl">
                   {card.tag}
                   <div className="absolute top-full left-1 w-0 h-0 border-t-[10px] border-t-blue-900 border-l-[10px] border-l-transparent" />
                 </div>
 
-                {/* Body content */}
+              
                 <p className="text-gray-700 mb-4 leading-relaxed text-lg font-bold">
                   {card.title}
                 </p>

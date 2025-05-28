@@ -28,13 +28,11 @@ const imageGroups = [
 const MockTestSection = () => {
   return (
     <div className="w-full bg-white py-8 px-4 text-center">
-      {/* Heading */}
-      <h2 className="text-3xl font-bold text-blue-900 mb-6">
+       <h2 className="text-3xl font-bold text-blue-900 mb-6">
         Mock Test <span className="bg-orange-500 text-white px-2 py-1 rounded">@TPC</span>
       </h2>
 
-      {/* Swiper Carousel */}
-  <Swiper
+   <Swiper
         modules={[Autoplay, Pagination]}
                  autoplay={{ delay: 2500, disableOnInteraction: false }}
                  pagination={{ clickable: true }}
@@ -60,8 +58,7 @@ const MockTestSection = () => {
         ))}
       </Swiper>
 
-      {/* Custom Pagination Dots Styling (override) */}
- 
+  
     </div>
   );
 };
