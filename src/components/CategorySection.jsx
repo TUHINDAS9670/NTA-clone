@@ -107,35 +107,40 @@ export default function CategorySection() {
 
   return (
     <div className="bg-gray-900 text-white px-6 py-1 items-center flex flex-col  ">
-      <div className="flex flex-wrap justify-between m-1   w-[1400px]  border-b-2 mb-8">
+      <div className="flex flex-wrap justify-between m-1 md:justify-between w-full  max-w-[1400px]  border-b-2 mb-8">
         {categories.map(cat => (
           <div
             key={cat.id}
-            className={`flex flex-col m-0.5 items-center cursor-pointer px-5 py-7 rounded-t-3xl transition-all duration-300  w-[250px] h-[170px] ${
+            className={`flex flex-col m-0.5 items-center cursor-pointer px-5 py-7 rounded-t-3xl transition-all duration-300  w-[170px] sm:w-[200px] md:w-[220px] ${
               selected === cat.id ? 'bg-white text-green-600 shadow-lg' : 'text-white hover:bg-white hover:text-green-500'
     
             }`}
             onClick={() => setSelected(cat.id)}
           >
             <div className="mb-1 border-2 border-green-500 rounded-full p-[15px] text-orange-400 ">{cat.icon}</div>
-            <span className="text-md font-semibold">{cat.title}</span>
+            <span className="text-md md:text-md text-center font-semibold">{cat.title}</span>
           </div>
         ))}
       </div>
 
  
-      <div className="flex flex-col md:flex-row  items-center w-[1400px] gap-9">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start  w-full max-w-[1400px] gap-9">
        
-        <div className=" bg-transparent p-6 rounded-lg shadow-lg h-[400px]  w-[900px] overflow-y-auto">
-          <h2 className="text-4xl font-bold text-orange-400 mb-2 border-b border-orange-400 pb-1">
+<div className="bg-transparent p-4 sm:p-6 rounded-lg shadow-lg w-full lg:w-[65%] max-h-[400px] overflow-y-auto">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-orange-400 mb-3 border-b border-orange-400 pb-1">
             {current.heading}
           </h2>
-          <p className="text-lg text-amber-50 whitespace-pre-line leading-relaxed">{current.content}</p>
+                    <p className="text-base sm:text-lg text-amber-50 whitespace-pre-line leading-relaxed">
+{current.content}</p>
         </div>
 
       
-        <div className="w-full md:w-[480px] border-2 h-full  border-white p-1 rounded-lg shadow-lg">
-          <img src={current.image} alt={current.title} className="rounded-md w-full h-[250px] object-cover" />
+         <div className="w-full lg:w-[35%] border-2 border-white p-1 rounded-lg shadow-lg">
+          <img
+            src={current.image}
+            alt={current.title}
+            className="rounded-md w-full h-[220px] sm:h-[250px] object-cover"
+          />
         </div>
       </div>
     </div>
